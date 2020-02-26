@@ -7,6 +7,8 @@
 
 `vue-ele-form-generator` 的cli工具, 用于本地启动 [vue-ele-form-generator](https://github.com/dream2023/vue-ele-form-generator)
 
+[![ 演示图](https://s2.ax1x.com/2020/01/14/lb1PL6.gif)](https://vue-ele-form-generator.netlify.com/)
+
 ## 安装 和 使用
 
 ```bash
