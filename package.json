@@ -1,0 +1,40 @@
+{
+  "name": "fgen-cli",
+  "version": "1.0.0",
+  "description": "vue-ele-form-generator的cli工具",
+  "main": "index.js",
+  "author": "zhangchaojie <1098626505@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "fgen": "./bin/fgen"
+  },
+  "scripts": {
+    "start": "node bin/fgen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dream2023/fgen-cli"
+  },
+  "keywords": [
+    "vue-ele-form",
+    "vue-ele-form-generator",
+    "cli",
+    "form-designer",
+    "form-design",
+    "form schema"
+  ],
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.1.0",
+    "internal-ip": "^5.0.0",
+    "open": "^7.0.2",
+    "semver": "^7.1.3",
+    "serve-handler": "^6.1.2",
+    "update-notifier": "^4.0.0",
+    "vue-ele-form-generator": "^1.10.1"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  }
+}
