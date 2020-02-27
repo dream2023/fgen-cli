@@ -771,18 +771,10 @@ url-parse-lax@^3.0.0:
   dependencies:
     prepend-http "^2.0.0"
 
-vue-ele-form-generator@^1.10.1:
-  version "1.10.1"
-  resolved "https://registry.npm.taobao.org/vue-ele-form-generator/download/vue-ele-form-generator-1.10.1.tgz#4808a7a81d143be121f894e63ffb7606aed7f25b"
-  integrity sha1-SAinqB0UO+Eh+JTmP/t2Bq7X8ls=
-  dependencies:
-    chalk "^3.0.0"
-    commander "^4.1.0"
-    internal-ip "^5.0.0"
-    open "^7.0.2"
-    semver "^7.1.3"
-    serve-handler "^6.1.2"
-    update-notifier "^4.0.0"
+vue-ele-form-generator@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npm.taobao.org/vue-ele-form-generator/download/vue-ele-form-generator-2.0.1.tgz#b45aca71c2f3d770dbba6e9a517eb39ca2c36bff"
+  integrity sha1-tFrKccLz13Dbum6aUX6znKLDa/8=
 
 which@^2.0.1:
   version "2.0.2"
