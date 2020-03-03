@@ -31,6 +31,10 @@ fgen -p 8080
 yarn global add fgen-cli # 或 npm update -g fgen-cli
 ```
 
+### 其它
+
+[私有化部署之守护进程的方式启动](https://github.com/dream2023/fgen-cli/wiki/%E5%A6%82%E4%BD%95%E4%BB%A5%E5%AE%88%E6%8A%A4%E8%BF%9B%E7%A8%8B%E6%96%B9%E5%BC%8F%E5%90%AF%E5%8A%A8fgen-cli)
+
 ## 生态
 
 | Project                                                                                          | Status                                                                                                                         | Description                                |
