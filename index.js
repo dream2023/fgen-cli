@@ -7,12 +7,12 @@ function checkNodeVersion(wanted, id) {
     console.log(
       "\x1B[31m%s\x1B[0m",
       "You are using Node " +
-        process.version +
-        ", but this version of " +
-        id +
-        " requires Node " +
-        wanted +
-        ".\nPlease upgrade your Node version."
+      process.version +
+      ", but this version of " +
+      id +
+      " requires Node " +
+      wanted +
+      ".\nPlease upgrade your Node version."
     );
     process.exit(1);
   }
@@ -35,15 +35,15 @@ function updateCheck() {
   if (notifier.update) {
     message.push(
       "Update available: " +
-        chalk.green.bold(notifier.update.latest) +
-        chalk.gray(" (current: " + notifier.update.current + ");")
+      chalk.green.bold(notifier.update.latest) +
+      chalk.gray(" (current: " + notifier.update.current + ");")
     );
     message.push(
       "Run " +
-        chalk.magenta("npm install -g " + pkg.name) +
-        " Or " +
-        chalk.magenta("yarn global add " + pkg.name) +
-        " to update."
+      chalk.magenta("npm install -g " + pkg.name) +
+      " Or " +
+      chalk.magenta("yarn global add " + pkg.name) +
+      " to update."
     );
     // eslint-disable-next-line no-console
     console.log(message.join("\r\n"));
@@ -55,7 +55,7 @@ const server = http.createServer((request, response) => {
   return handler(request, response, {
     public: path.resolve(
       __dirname,
-      "./node_modules/vue-ele-form-generator/dist"
+      "./vue-ele-form-generator"
     )
   });
 });
